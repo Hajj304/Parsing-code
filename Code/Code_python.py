@@ -29,4 +29,8 @@ class CodeAnalyzer(ast.NodeVisitor):
 # تحليل الكود
 analyzer = CodeAnalyzer()
 analyzer.visit(tree)
+#النتيجة
+🔹 Found function: hello
+🔸 Found variable: message
+🔸 Found variable: x
 
